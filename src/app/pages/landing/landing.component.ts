@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-landing',
   templateUrl: './landing.component.html',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   standalone: true,
   styleUrls: ['./landing.component.scss']
 })
