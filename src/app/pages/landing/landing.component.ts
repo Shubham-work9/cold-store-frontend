@@ -15,17 +15,17 @@ export class LandingComponent implements OnInit {
     {
       title: 'Welcome to Cold Store',
       description: 'Track inventory, manage sales and optimize storage.',
-      imageUrl: 'https://placehold.co/400x300?text=Cold+Storage+1'
+      imageUrl: 'assets/images/slide1.jpg'
     },
     {
       title: 'Smart Purchase Planning',
       description: 'Seamless purchase and procurement workflow.',
-      imageUrl: 'https://placehold.co/400x300?text=Cold+Storage+2'
+      imageUrl: 'assets/images/slide2.jpg'
     },
     {
       title: 'Stock Management',
       description: 'Know what’s in your freezer — always!',
-      imageUrl: 'https://placehold.co/400x300?text=Cold+Storage+3'
+      imageUrl: 'assets/images/slide3.jpg'
     }
   ];
   
