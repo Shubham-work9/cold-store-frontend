@@ -19,6 +19,10 @@
 
         <div class="error" *ngIf="errorMessage">{{ errorMessage }}</div>
 
+        <div class="nav-links">
+            <a routerLink="/"> Back to home</a>
+        </div>
+        <br>
         <button type="submit" [disabled]="loginForm.invalid">Login</button>
     </form>
 </div>
